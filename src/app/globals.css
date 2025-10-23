@@ -18,9 +18,11 @@
     --foreground: #ededed;
   }
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1f2125; /* Figma wala dark background color */
+  color: white; /* Default text color ko white kar dete hain */
 }
